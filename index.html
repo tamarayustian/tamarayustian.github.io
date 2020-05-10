@@ -39,6 +39,10 @@
 	-->
 
 <header class="w3-container w3-theme w3-padding" id="myHeader">
+<div class="w3-bar w3-theme">
+  <a href="index,html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="index1.html" class="w3-bar-item w3-button w3-padding-16">Model</a>
+</div>
   <div class="w3-center">
 	<h4>CUHK FYP MAEG 2020</h4>
 	<h2 class="w3-xxxlarge w3-animate-bottom">Machine Learning-Based 3D Human Model Generator</h2>
@@ -87,8 +91,8 @@
 	<div id="drop-area">
   <form class="my-form">
     <p>Upload file with the file dialog or by dragging and dropping image onto the dashed region</p>
-    <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
-    <label class="button" for="fileElem">Select some files</label>
+    <input type="file" id="fileElem" accept="image/*" onchange="handleFiles(this.files)"> 
+    <label class="button" id ="custom-button" for="fileElem">Select some files</label>
 	<input type="submit" value="Upload Image" name="submit" />
   </form>
   <progress id="progress-bar" max=100 value=0></progress>
