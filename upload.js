@@ -1,3 +1,10 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Web Page</title>
+<script>
+
 // ************************ Drag and drop ***************** //
 let dropArea = document.getElementById("drop-area")
 
@@ -100,3 +107,6 @@ function uploadFile(file, i) {
   formData.append('file', file)
   xhr.send(formData)
 }
+
+</script>
+</head>
