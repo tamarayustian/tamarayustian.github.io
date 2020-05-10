@@ -61,7 +61,7 @@
 			<h3>Step 2</h3><br>
 			<i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
 			<p>Generate image outline</p>
-			<p>Confirm image outline</p>
+			<p>Confirm shown image</p>
 		</div>
 	</div>
 
@@ -77,8 +77,8 @@
 
 	<h2>Upload Image</h2><br>
 	Select an image to upload:<br>
-	<form enctype="multipart/form-data" method="post">
-		<input type="file" id="myFile" name="image" accept="image/*"><br>
+	<form enctype="multipart/form-data" action="/upload/image" method="post">
+		<input type="file" id="fileUpload" name="image" accept="image/*"><br>
 		<input type="submit" value="Upload Image" name="submit" />
 	</form>
 	
