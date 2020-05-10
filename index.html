@@ -77,12 +77,23 @@
 
 	<h2>Upload Image</h2><br>
 	Select an image to upload:<br>
+	<!--
 	<form enctype="multipart/form-data" action="/upload/image" method="post">
 		<input type="file" id="fileUpload" name="image" accept="image/*"><br>
 		<input type="submit" value="Upload Image" name="submit" />
 	</form>
-	
 	<script src="upload.js"></script>
+	-->
+	
+	<div id="drop-area">
+	<form class="my-form" action="upload.js">
+		<p>Upload image with the file dialog or by dragging and dropping the image onto the dashed region</p>
+		<input type="file" id="fileElem" accept="image/*" onchange="handleFiles(this.files)">
+		<label class="button" for="fileElem">Select some files</label>
+		<input type="submit" value="Upload Image" name="submit" />
+	</form>
+	</div>
+	
 
 </body>
 </html>
