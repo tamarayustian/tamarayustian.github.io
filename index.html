@@ -26,11 +26,16 @@
 
 </head>
 <body>
-
+	<!--	
     <div id='viewport'>
     </div>
-
-    <script type='text/javascript' src='main.js'></script>
-
+	<script type='text/javascript' src='main.js'></script>
+	-->
+	<form action="/upload_image.php" method="POST" enctype="multipart/form-data">
+		Select image to upload: <br>
+		<input type = "file" id = "img" name="img" accept="image/*"><br>
+		<input type = "submit">
+	</form>
+	
 </body>
 </html>
