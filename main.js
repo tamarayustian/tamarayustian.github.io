@@ -74,13 +74,17 @@ function initGUI() {
     var main = new window.yagui.GuiMain(viewport, onWindowResize); // main gui
 
     //////// TOP BAR /////////
-    var topbar = main.addTopbar();
+	/* var topbar = main.addTopbar();
     var menutopbar1 = topbar.addMenu('Files');
     menutopbar1.addButton('Export Human', exportObj, null);
     menutopbar1.addButton('Export Cloth', exportCloth, null);
     menutopbar1.addButton('Reset Parameters', resetDefaultParams, null);
     var menutopbar2 = topbar.addMenu('Help');
-    menutopbar2.addButton('About', showAbout, null);
+    menutopbar2.addButton('About', showAbout, null); */
+	<div class="w3-bar w3-theme">
+		<a href="index,html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+		<a href="index1.html" class="w3-bar-item w3-button w3-padding-16">Model</a>
+	</div>
     
     //////// RIGHT SIDEBAR /////////
     var rightbar = main.addRightSidebar(onWindowResize); // right bar

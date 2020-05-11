@@ -35,6 +35,7 @@ p {
 }
 #gallery {
   margin-top: 10px;
+  background-color: #009578;
 }
 #gallery img {
   width: 150px;
