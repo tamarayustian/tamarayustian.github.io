@@ -82,7 +82,7 @@ function initGUI() {
     var menutopbar2 = topbar.addMenu('Help');
     menutopbar2.addButton('About', showAbout, null); */
 	<div class="w3-bar w3-theme">
-		<a href="index,html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-16">Home</a>
 		<a href="index1.html" class="w3-bar-item w3-button w3-padding-16">Model</a>
 	</div>
     
